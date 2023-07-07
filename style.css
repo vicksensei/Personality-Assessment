@@ -75,3 +75,16 @@ div {
   color: violet;
   border: 2px violet solid;
 }
+@media only screen and (max-width: 600px) {
+  #content {
+    width: 90vw;
+    height: 80vh;
+  }
+  .stat {
+    width: 90%;
+  }
+  .point {
+    height: 2.5vh;
+    width: 2.5vh;
+  }
+}

@@ -64,7 +64,7 @@ function clearStat(stat) {
     }
   }
   spanElement.innerHTML = ` ${stat} : ${stats[stat]} `;
-  poolElement.innerHTML = 10;
+  poolElement.innerHTML = pool;
 }
 
 function initSection() {
