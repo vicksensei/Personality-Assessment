@@ -32,6 +32,7 @@ div {
 .points {
   width: 40%;
   justify-content: space-between;
+  cursor: pointer;
 }
 .gray {
   background-color: lightgray;
@@ -39,4 +40,38 @@ div {
 
 .selected {
   background-color: violet;
+}
+.button {
+  background-color: violet;
+  color: white;
+  padding: 1vh;
+  border: 2px white solid;
+  border-radius: 50px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: violet;
+  border: 2px violet solid;
+}
+.clear {
+  background-color: violet;
+  border: 2px white solid;
+  color: white;
+  border-radius: 50%;
+  height: 3vh;
+  width: 3vh;
+  font-size: small;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+.clear:hover {
+  background-color: white;
+  color: violet;
+  border: 2px violet solid;
 }
