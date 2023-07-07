@@ -1,5 +1,10 @@
+:root {
+  --violet: rgb(179, 111, 162);
+  --white: #ffffff;
+}
+
 body {
-  background-color: violet;
+  background-color: var(--violet);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,10 +44,10 @@ div {
 }
 
 .selected {
-  background-color: violet;
+  background-color: var(--violet);
 }
 .button {
-  background-color: violet;
+  background-color: var(--violet);
   color: white;
   padding: 1vh;
   border: 2px white solid;
@@ -54,11 +59,11 @@ div {
 
 .button:hover {
   background-color: white;
-  color: violet;
-  border: 2px violet solid;
+  color: var(--violet);
+  border: 2px solid var(--violet);
 }
 .clear {
-  background-color: violet;
+  background-color: var(--violet);
   border: 2px white solid;
   color: white;
   border-radius: 50%;
@@ -72,8 +77,8 @@ div {
 }
 .clear:hover {
   background-color: white;
-  color: violet;
-  border: 2px violet solid;
+  color: var(--violet);
+  border: 2px var(--violet) solid;
 }
 @media only screen and (max-width: 600px) {
   #content {
